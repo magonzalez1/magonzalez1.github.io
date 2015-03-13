@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var card_array = ["fish", "fish", "turtle", "turtle", "pig", "pig", "dog", "dog", "cat", "cat", "snake", "snake", "bird", "bird", "goat", "goat", "hamster", "hamster", "dragon", "dragon"];
+  var card_array = ["dog", "dragon", "pig", "turtle", "turtle", "pig", "fish", "dog", "cat", "bird", "snake", "snake", "bird", "cat", "hamster", "goat", "hamster", "goat", "fish", "dragon"];
   var click_count = 0;
   var click_1 = 'nothing';
   var click_2 = 'nothing';
