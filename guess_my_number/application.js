@@ -9,16 +9,20 @@ $(document).ready(function(){
     console.log(userGuess)
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    
+    if (userGuess === randomIndex){
+      alert("You win")
+    }
       //what happens if the guess is correct?
       
     //if the user guessed too high...
-    
+    else if (userGuess > randomIndex){
+      alert("Guess Lower!")
+    }
       //update the 'feedback' paragraph to tell them to guess lower
-      
-    //otherwise, the user guessed too low...
-    
+       //otherwise, the user guessed too low...
+    else if (userGuess < randomIndex){
+      alert("Guess Higher!")
+    }
       //update the 'feedback' paragraph to tell them to guess higher
-    
   });
 });
