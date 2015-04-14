@@ -8,7 +8,7 @@ $(document).ready(function(){
     //save their guess as a variable
     var userGuess = $('input').val();
     click_count = click_count+1 ;
-    $('#guess_counter')
+    $('#guess_counter').empty.append(click_count)
     console.log(click_count)
     console.log(userGuess)
     //and compare this guess to the random number that the computer picked
